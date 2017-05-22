@@ -1,0 +1,119 @@
+main {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 90px;
+}
+
+nav ul {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding-left: 10px;
+}
+
+.container {
+	position:relative;
+}
+
+.navigator-bar {
+	font-size: 22px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #D3D3D3;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+}
+
+.left-hand {
+	position:absolute;
+	left:20px;
+	font-weight:600;
+}
+
+.form-one {
+	max-width: 500px;
+	display: inline-block;
+}
+
+.container-two {
+	position:relative;
+}
+
+.searchbar {
+	width:500px;
+	margin-top: 6px;
+	padding:4px;
+	font-size:18px;
+	border-radius: 3px;
+	border: 2px solid #E8E8E8;
+}
+
+.search-icon {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	position:absolute;
+	top: 25px;
+	left: 515px;
+	border-radius: 3px;
+	border: 2px solid #E8E8E8;
+	padding: 2px;
+}
+
+.container-three {
+	width: 350px;
+	height:43px;
+	margin-top: 50px;
+	border-radius: 5px;
+	border: 2px solid#E8E8E8;
+	font-size:18px;
+}
+
+
+.middle {
+	display: inline-block;
+	border: 2px solid #E8E8E8;
+	border-top: none;
+	border-bottom: none;
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin:auto;
+}
+
+.search-change{
+	display: inline-block;
+	padding: 12px;
+}
+
+.search-group {
+	padding-left: 0px;
+	padding-top: 25px;
+	margin-left:-9px;
+	font-size:20px;
+}
+
+.search-result {
+	list-style-type: none;
+	color: #909090;
+	padding: 8px;
+}
+
+.search-change, .job-title, .account-access {
+	text-decoration: none;
+}
+
+.job-title {
+	color: blue;
+	padding: 5px;
+}
+
+a:hover {
+	color: orange;
+}
